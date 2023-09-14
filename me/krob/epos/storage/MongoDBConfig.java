@@ -4,8 +4,7 @@ import lombok.Getter;
 
 @Getter
 public class MongoDBConfig {
-    private final String
-            connectionString = "",
+    private String connectionString = "",
             database = "epos",
             userCollection = "users"
             ;
